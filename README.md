@@ -7,7 +7,7 @@ A personal web page created as part of **Step 4** of the *CodeYourFuture: Introd
 
 ## About Me
 
-My name is **Olena Uzlova**, though I also go by **Lenna** or **Lenny**.  
+My name is **Olena Uzlova**, though I also go by **Lenna** or **Lennie**.  
 I am currently exploring web development through practical projects.  
 Earlier, I studied some basics of Java, but I didn’t manage to create a full project with it.
 
