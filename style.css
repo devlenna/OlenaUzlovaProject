@@ -1,0 +1,124 @@
+/* Universal styles at first */
+* { box-sizing: border-box;
+   }
+  
+body {
+            background: #f5f5f5;
+            color: #000000;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            width: auto; 
+            line-height: 1.5;
+}
+
+/* links*/
+   a:link {color: #004256}
+   a:visited {color: #006600}
+   a:hover {color: #097a6c}
+   a:active {color: #FF00CC}
+   
+   .footer_letter {
+    color: #ffffff;
+    font-size: 100%;
+   }
+  
+#wrap {
+  background: url(https://img1.goodfon.ru/wallpaper/nbig/7/41/belyy-kirpich-stena-iz-kirpicha.jpg);
+   background-repeat: repeat-y;
+  background-size: 100%;
+}
+
+#header {
+  background: url(https://cdn.lifehacker.ru/wp-content/uploads/2018/11/cover_1541508136-1600x800.jpg) no-repeat;
+   height: 700px;
+   padding: 10px;
+  text-align: center;
+  font-size: 28px;
+}
+ 
+#navigation {
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 20px;
+  }
+ 
+#sidebar { 
+  background-size: cover;  
+  background: rgba(200,190,200,0.5);
+            float: left;
+            width: 28%;
+            padding: 20px;
+            height: 400px;
+            font-size: 20px;
+  }
+          
+
+#content {
+  background-image: url("https://abc-decor.com/img/gallery/56/thumbs/thumb_l_25289.jpg");
+  background-color: rgba(250,250,250,0.6);
+ 
+            float: right;
+            width: 70%;
+            height: auto;
+            padding: 10px;
+}
+
+
+#clear {
+            clear:both;
+}
+#footer {
+            background: #435154;
+            padding: 20px;
+            height: auto;
+            width: auto;
+}
+  
+/* changes for my inline styles*/
+
+  .header-quote { text-align: center; } 
+  .nav-heading { text-align: center; }
+
+
+  .sidebar-list { list-style-type: square; padding-left: 1.2em; }
+  .sidebar-ol { list-style-type: square; padding-left: 1.2em;}
+  .indent { text-indent: 1cm; }
+
+
+  .img-container {
+  width: 90%;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto; /* центр по горизонталі */
+}
+.cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+ .disc-list { list-style-type: disc; margin-left: 1.2em; }
+
+ .interests-list { list-style-type: decimal; }
+
+
+.menu { padding: 0; margin: 0; list-style: none; text-align: center; }
+.menu li { display: inline-block; margin: 0 6px; }
+.menu li + li:before { content: "|"; margin-right: 6px; color: #666; }
+
+.sidebar-menu { list-style-type: square; padding-left: 1.2em; }
+.sidebar-menu li { display: block; margin: 6px 0; }
+
+
+
+.flower-container {
+  text-align: center;    
+  padding: 40px 0;        
+}
+
+.flower-img {
+  max-width: 170px;      
+  height: auto;
+  display: inline-block;
+}
