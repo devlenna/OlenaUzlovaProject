@@ -32,5 +32,5 @@ This web page was built to demonstrate basic web development skills and to share
 
 ## Preview
 
-You can view the page here: *(GitHub Pages link)*
+You can view the page here: *https://devlenna.github.io/OlenaUzlovaProject/*
 
